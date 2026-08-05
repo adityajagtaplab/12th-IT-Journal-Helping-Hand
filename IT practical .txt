@@ -1,0 +1,426 @@
+JAVASCRIPT PROGRAMS
+
+1.Write JavaScript code to print subtraction of 2 numbers.
+
+<html>
+<head>
+<title>JS program to subtract two numbers</title>
+</head>
+<body>
+<script>
+var n1, n2, diff;
+n1=parseInt(prompt("Enter first number:"));
+n2=parseInt(prompt("Enter second number:"));
+diff=n2-n1;
+alert("Subtraction - "+ diff);
+</script>
+</body>
+</html>
+
+2.Write JavaScript code to print addition of 2 numbers.
+
+<html>
+<head>
+<title>JS program to add two numbers</title>
+</head>
+<body>
+<script>
+var n1, n2, sum;
+n1=parseInt(prompt("Enter first number:"));
+n2=parseInt(prompt("Enter second number:"));
+sum=n1+n2;
+alert("Sum- " + sum);
+</script>
+</body>
+</html>
+
+3.Write JavaScript code to print multiplication of 2 numbers.
+
+<html>
+<head>
+<title>JS program to multiply two numbers</title>
+</head>
+<body>
+<script>
+var n1, n2, prod;
+n1=parseInt(prompt("Enter first number:"));
+n2=parseInt(prompt("Enter second number:"));
+prod=n1*n2;
+alert("Product - " + prod);
+</script>
+</body>
+</html>
+
+4.Write JavaScript code to print division of 2 numbers.
+
+<html>
+<head>
+<title>JS program to divide two numbers</title>
+</head>
+<body>
+<script>
+var n1, n2, 9;
+n1=parseInt(prompt("Enter first number:"));
+n2=parseInt(prompt("Enter second number:"));
+q=n1/n2;
+alert("Division - " + q);
+</script>
+</body>
+</html>
+
+5.Write JavaScript code to print addition, subtraction, multiplication & division of 2 numbers.
+
+<html>
+<head>
+<title>JS program to add, subtract, multiply, divide two numbers</title>
+</head>
+<body>
+<script>
+var n1, n2, s,d,m,q;
+n1=parseInt(prompt("Enter first number:"));
+n * 2 = parseInt(prompt("Enter second number:"));
+s =n1+n2
+d =n2-n1;
+m =n1^ * n2
+q = n * 1 / n * 2
+document.write("<br>Sum - " + s);
+document.write("<br>Difference - " + d);
+document.write("<br>Product - " + m);
+document.write("<br>Division - " + q);
+</script>
+</body>
+</html>
+
+1. Write JavaScript code to display area of circle, accept value from user.
+
+1. Write JavaScript code to print area of triangle.
+<html>
+<head>
+<title>JS program to calculate area of circle</title>
+</head>
+<body>
+<script>
+var r, area;
+r=parseInt(prompt("Enter radius of the circle:"));
+area = 3.14 ^ * r^ * r;
+alert("Area - " + area);
+</script>
+</body>
+</html>
+1. Write JavaScript code to calculate the average of three numbers.
+<html>
+<head>
+<title>JS program to calculate average of three numbers</title>
+</head>
+<body>
+<script>
+var n1, n2, n3 avg;
+n1=parseInt(prompt("Enter first number:"));
+n2=parseInt(prompt("Enter second number:"));
+n3=parseInt(prompt("Enter third number:"));
+avg=(n1+n2+n3)/3; alert
+("Average - " + avg);
+</script>
+</body>
+</html>
+
+9.Write JavaScript code to print perimeter of rectangle.
+
+<html>
+<head>
+<title>JS program to calculate perimeter of rectangle</title>
+</head>
+<body>
+<script>
+var length, breadth, p;
+length=parseInt(prompt("Enter length of the rectangle:"));
+breadth=parseInt(prompt("Enter breadth of the rectangle:"));
+p=2*(length+breadth);
+alert("Perimeter-" + p);
+</script>
+</body>
+</html>
+
+10.Write JavaScript code to print perimeter of trapezium.
+
+<html>
+<head>
+<title>JS program to calculate perimeter of trapezium</title>
+</head>
+<body>
+<script>
+var a, b, c, d, p;
+a = parseInt(prompt("Enter length of the first side of trapezium:"));
+b = parseInt(prompt("Enter length of the second side of trapezium:"));
+c = parseInt(prompt("Enter length of the third side of trapezium:"));
+d = parseInt(prompt("Enter length of the fourth side of trapezium:"));
+p = a + b + c + d
+alert("Perimeter - " + p);
+</script>
+</body>
+</html>
+
+11.Write JavaScript code to check whether the number is odd or even.
+<html>
+<head>
+<title>JS program to check number is odd or even</title>
+</head>
+<body>
+<script>
+var n;
+n = parseInt(prompt("Enter a number:"));
+if( n% * 2 ==0)
+alert("Number is even");
+else
+alert("Number is odd");
+</script>
+</body>
+</html>
+1. Write JavaScript code to enter two values and display the largest.
+<html>
+<head>
+<title>JS program to find largest number</title>
+</head>
+<body>
+<script>
+var n1, n2;
+n1=parseInt(prompt("Enter first number:"));
+n2=parseInt(prompt("Enter second number:"));
+if(n1>n2)
+alert("Larger number - " + n1);
+else
+alert("Larger number - " + n2);
+</script>
+</body>
+</html>
+1. Write JavaScript code to print multiplication table of 3.
+<html>
+<head>
+<title>JS program to print multiplication table of 3</title>
+</head>
+<body>
+<script>
+var n=3, i;
+document.write("Multiplication table of 3");
+for(i=1;i<=10;i++)
+{ document.write("<br>"+n+" * "+i+" = "+n*i); }
+</script>
+</body>
+</html>
+
+14.Write JavaScript code to print numbers from 1 to 10.
+
+<html>
+<head>
+<title>JS program to print numbers from 1 to 10</title>
+</head>
+<body>
+<script>
+var i;
+document.write("Numbers from 1 to 10");
+for(i=1;i<=10;i++) {
+document.write("<br>"+i);
+}
+</script>
+</body>
+</html>
+
+15.Write JavaScript code to print sum of 50 natural numbers.
+
+<html>
+<head>
+<title>JS program to print sum of 50 natural numbers.</title>
+</head>
+<body>
+<script>
+var i, sum=0;
+document.write("Sum of numbers from 1 to 50");
+for(i=1;i<=50;i++)
+{
+document.write("<br>"+i);
+sum=sum+i;
+}
+ document.write("<br>Sum - "+sum);
+</script>
+</body>
+</html>
+1. Write JavaScript code to print all even numbers from 10 to 50.
+<html>
+<head>
+<title>JS program to print even numbers from 10 to 50</title>
+</head>
+<body>
+<script>
+var i;
+document.write("Even Numbers from 10 to 50");
+for(i=10;i<=50;i++)
+{
+if(i%2==0)
+document.write("<br>"+i);
+}
+</script>
+</body>
+</html>
+
+1. Write JavaScript code when user click on button, it will display sum of even numbers from 1 to 10.
+
+<html>
+<head>
+<title>JS program to print sum of even numbers.</title>
+<script>
+function display_sum() {
+var i, sum=0;
+for(i=1;i<=10;i++)
+{
+ if(i%2==0)
+sum=sum+i;
+} 
+document.getElementById("disp").innerHTML = "Sum of even numbers from 1to10 - " + sum;
+} 
+</script>
+</head>
+<body>
+<input type="button" name="disp_sum" value="Display Sum"
+onclick="display_sum()">
+<br>
+<p id="disp"> </p>
+</body>
+</html>
+1. Write JavaScript code to print all odd numbers from 50 to 100.
+<html>
+<head>
+<title>JS program </title>
+</head>
+<body>
+<h1>JS program to print odd numbers from 50 to 100</h1>
+<script>
+var i;
+document.write("Odd Numbers from 50 to 100");
+for(i=50;i<=100;i++)
+{
+if(i%2!=0)
+document.write("<br>"+i);
+}
+</script>
+</body>
+</html>
+
+19.Write JavaScript code to print factorial of 7 on button click.
+
+<html>
+<head>
+<title>JS program - factorial of number</title>
+<script>
+function display_factorial(num) {
+var i, f = 1;
+for (i = num; i >= 1; i--) {
+f=f*i;
+}
+ document.getElementById("disp").innerHTML = "Factorial of 7 - "
++f;
+}
+</script>
+</head>
+<body>
+<h1>JS program to print factorial of number</h1>
+<input type="button" name="disp_fact" value="Display Factorial"
+onclick="display_factorial(7)">
+<br>
+<p id="disp"> </p>
+</body>
+</html>
+1. Write JavaScript code to print square of a accepted number.
+<html>
+<head>
+<title>JS program to display square of a number</title>
+</head>
+<body>
+<script>
+var n, r;
+n=parseInt(prompt("Enter a number:"));
+r=n*n
+alert("Square - " + r);
+</script>
+</body>
+</html>
+
+21.Write JavaScript code to count length of accepted string after click on the button.
+
+<html>
+<head>
+<title>JS program</title>
+<script>
+function display_length() {
+var str, len;
+str = form1.str_box.value;
+len = str.length;
+document.getElementById("disp").innerHTML = "Length of String
+-" + len;
+}
+</script>
+</head>
+<body>
+<h1>JS program to print length of string</h1>
+<form name="form1">
+<input type="text" name="str_box" size=50>
+<input type="button" name="disp_strlen" value="Display Length"
+onclick="display_length()">
+</form>
+<br>
+<p id="disp"> </p>
+</body>
+</html>
+
+22.Write JavaScript code to accept two dates and find the difference in those dates.
+<html>
+<head>
+<title>JS program</title>
+<script>
+function display_diff() {
+var d1, d2, diff;
+d1 = new Date(form1.date1.value);
+d2 = new Date(form1.date2.value);
+diff = (d2-d1) / (1000 * 3600 * 24);
+document.getElementById("disp").innerHTML = "Difference of
+dates in days " + diff;
+}
+</script>
+</head>
+<body>
+<h1>JS program to display difference between dates</h1>
+<form name="form1">
+<input type="date" name="date1">
+<br> <br>
+<input type="date" name="date2">
+<br> <br>
+<input type="button" name="disp_diff" value="Display Difference"
+onclick="display_diff()">
+</form>
+<br>
+<p id="disp"> </p>
+</body>
+</html>
+
+23.Write JavaScript code to take a input of string and reverse the string in output.
+
+<html>
+<head>
+<title>JS program - revverse of string</title>
+<script>
+function display_reverse(str) {
+var newstr;
+newstr = str.split("").reverse().join("")
+document.write("Reverse of String " + newstr);
+}
+</script>
+</head>
+<body>
+<h1>JS program to reverse a string</h1>
+<script>
+var s;
+s = prompt("Input a string");
+display_reverse(s)
+</script>
+</body>
+</html>
+1. Write JavaScript code to input 3 digit number and find sum and product of its digit of the number use onblur event for the program.
