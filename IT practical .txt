@@ -91,9 +91,10 @@ document.write("<br>Division - " + q);
 </body>
 </html>
 
-1. Write JavaScript code to display area of circle, accept value from user.
+6. Write JavaScript code to display area of circle, accept value from user.
 
-1. Write JavaScript code to print area of triangle.
+7. Write JavaScript code to print area of triangle.
+
 <html>
 <head>
 <title>JS program to calculate area of circle</title>
@@ -107,7 +108,9 @@ alert("Area - " + area);
 </script>
 </body>
 </html>
-1. Write JavaScript code to calculate the average of three numbers.
+
+8. Write JavaScript code to calculate the average of three numbers.
+
 <html>
 <head>
 <title>JS program to calculate average of three numbers</title>
@@ -161,6 +164,7 @@ alert("Perimeter - " + p);
 </html>
 
 11.Write JavaScript code to check whether the number is odd or even.
+
 <html>
 <head>
 <title>JS program to check number is odd or even</title>
@@ -176,7 +180,9 @@ alert("Number is odd");
 </script>
 </body>
 </html>
-1. Write JavaScript code to enter two values and display the largest.
+
+12. Write JavaScript code to enter two values and display the largest.
+
 <html>
 <head>
 <title>JS program to find largest number</title>
@@ -193,7 +199,9 @@ alert("Larger number - " + n2);
 </script>
 </body>
 </html>
-1. Write JavaScript code to print multiplication table of 3.
+
+13. Write JavaScript code to print multiplication table of 3.
+
 <html>
 <head>
 <title>JS program to print multiplication table of 3</title>
@@ -244,7 +252,9 @@ sum=sum+i;
 </script>
 </body>
 </html>
-1. Write JavaScript code to print all even numbers from 10 to 50.
+
+16. Write JavaScript code to print all even numbers from 10 to 50.
+
 <html>
 <head>
 <title>JS program to print even numbers from 10 to 50</title>
@@ -262,7 +272,7 @@ document.write("<br>"+i);
 </body>
 </html>
 
-1. Write JavaScript code when user click on button, it will display sum of even numbers from 1 to 10.
+17. Write JavaScript code when user click on button, it will display sum of even numbers from 1 to 10.
 
 <html>
 <head>
@@ -286,7 +296,9 @@ onclick="display_sum()">
 <p id="disp"> </p>
 </body>
 </html>
-1. Write JavaScript code to print all odd numbers from 50 to 100.
+
+18. Write JavaScript code to print all odd numbers from 50 to 100.
+
 <html>
 <head>
 <title>JS program </title>
@@ -329,7 +341,9 @@ onclick="display_factorial(7)">
 <p id="disp"> </p>
 </body>
 </html>
-1. Write JavaScript code to print square of a accepted number.
+
+20. Write JavaScript code to print square of a accepted number.
+
 <html>
 <head>
 <title>JS program to display square of a number</title>
@@ -372,6 +386,7 @@ onclick="display_length()">
 </html>
 
 22.Write JavaScript code to accept two dates and find the difference in those dates.
+
 <html>
 <head>
 <title>JS program</title>
@@ -423,4 +438,5 @@ display_reverse(s)
 </script>
 </body>
 </html>
-1. Write JavaScript code to input 3 digit number and find sum and product of its digit of the number use onblur event for the program.
+
+24. Write JavaScript code to input 3 digit number and find sum and product of its digit of the number use onblur event for the program.
